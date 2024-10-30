@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(52, 82, 229);
+}
+.container {
+  text-align: center;
+  h1 {
+    margin-top: 100px;
+    color: white;
+  }
+  p {
+    color: rgb(26, 255, 0);
+    font-size: 26px;
+  }
+  button {
+    width: 100px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    color: white;
+    border-radius: 6px;
+  }
+  button:active {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+  }
+}
